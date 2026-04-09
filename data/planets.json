@@ -1,26 +1,10 @@
 [
-  {
-    "name": "Mercury",
-    "distance": "57.9 million km",
-    "description": "The smallest planet and closest to the Sun.",
-    "diameter": "4879 km"
-  },
-  {
-    "name": "Venus",
-    "distance": "108.2 million km",
-    "description": "A hot planet with thick toxic atmosphere.",
-    "diameter": "12104 km"
-  },
-  {
-    "name": "Earth",
-    "distance": "149.6 million km",
-    "description": "The only planet known to support life.",
-    "diameter": "12742 km"
-  },
-  {
-    "name": "Mars",
-    "distance": "227.9 million km",
-    "description": "Known as the red planet.",
-    "diameter": "6779 km"
-  }
+  {"name":"Mercury","size":0.4,"color":"gray","info":"Closest to the Sun"},
+  {"name":"Venus","size":0.9,"color":"orange","info":"Hottest planet"},
+  {"name":"Earth","size":1,"color":"blue","info":"Our home"},
+  {"name":"Mars","size":0.5,"color":"red","info":"The red planet"},
+  {"name":"Jupiter","size":2,"color":"orange","info":"Gas giant"},
+  {"name":"Saturn","size":1.7,"color":"gold","info":"Has rings"},
+  {"name":"Uranus","size":1.2,"color":"lightblue","info":"Ice giant"},
+  {"name":"Neptune","size":1.2,"color":"blue","info":"Furthest planet"}
 ]
