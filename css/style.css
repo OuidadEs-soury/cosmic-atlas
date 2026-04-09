@@ -1,56 +1,32 @@
 body{
     margin:0;
-    font-family:Arial;
-    background:black;
+    background: radial-gradient(circle at center, #050510, #000);
     color:white;
+    font-family: 'Segoe UI';
+    text-align:center;
 }
 
-header{
-    text-align:center;
+#scene{
+    width:100%;
+    height:500px;
+}
+
+#info-panel{
+    margin-top:20px;
     padding:20px;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(10px);
+    border-radius:15px;
+    width:300px;
+    margin-left:auto;
+    margin-right:auto;
 }
 
-#search{
+button{
     padding:10px;
-    width:200px;
-}
-
-#solar-system{
-
-    display:flex;
-    justify-content:center;
-    flex-wrap:wrap;
-    margin-top:40px;
-
-}
-
-.planet{
-
-    width:120px;
-    height:120px;
-
-    border-radius:50%;
-
-    display:flex;
-    align-items:center;
-    justify-content:center;
-
-    margin:20px;
-
+    margin:10px;
+    border:none;
+    background:#0ff;
+    color:black;
     cursor:pointer;
-
-    transition:0.3s;
-
-}
-
-.planet:hover{
-    transform:scale(1.2);
-}
-
-#planet-info{
-
-    margin-top:40px;
-
-    text-align:center;
-
 }
